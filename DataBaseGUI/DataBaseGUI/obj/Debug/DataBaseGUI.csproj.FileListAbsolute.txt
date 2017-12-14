@@ -1,0 +1,11 @@
+D:\C# saves\DataBaseGUI\DataBaseGUI\bin\Debug\DataBaseGUI.exe.config
+D:\C# saves\DataBaseGUI\DataBaseGUI\bin\Debug\DataBaseGUI.exe
+D:\C# saves\DataBaseGUI\DataBaseGUI\bin\Debug\DataBaseGUI.pdb
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.csprojResolveAssemblyReference.cache
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.Properties.Resources.resources
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.csproj.GenerateResource.Cache
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.exe
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.pdb
+D:\C# saves\DataBaseGUI\DataBaseGUI\obj\Debug\DataBaseGUI.DBGUI.resources
+D:\C# saves\DataBaseGUI\DataBaseGUI\bin\Debug\TelecomCompany.mdf
+D:\C# saves\DataBaseGUI\DataBaseGUI\bin\Debug\TelecomCompany_log.ldf
