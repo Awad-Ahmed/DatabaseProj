@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Billing]
+(
+	[B_ID] INT NOT NULL PRIMARY KEY, 
+    [B_METHOD] NVARCHAR(50) NULL
+)

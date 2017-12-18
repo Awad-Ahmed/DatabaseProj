@@ -1,0 +1,32 @@
+CREATE TABLE [dbo].[Facilities]
+(
+	[F_ID] INT NOT NULL PRIMARY KEY, 
+    [Branch Name] VARCHAR(20) NOT NULL, 
+    [Location] VARCHAR(10) NOT NULL
+)
+
+CREATE TABLE [dbo].[Sites]
+(
+	[SITE_ID] INT NOT NULL PRIMARY KEY, 
+    [Last_Check] DATE NOT NULL, 
+    [FK_F_ID] INT NOT NULL FOREIGN KEY REFERENCES Facilities([F_ID])
+)
+CREATE TABLE [dbo].[Departments]
+(
+	[D_ID] INT NOT NULL PRIMARY KEY, 
+    [Department name] VARCHAR(30) NOT NULL, 
+    [Budget] INT NOT NULL
+)
+CREATE TABLE [dbo].[Contract Employees]
+(
+	[E_ID] INT NOT NULL PRIMARY KEY, 
+    [Contract ID] INT NOT NULL UNIQUE, 
+    [Salary] INT NOT NULL
+)
+CREATE TABLE [dbo].[has]
+(
+	[FK_D_ID] INT NOT NULL FOREIGN KEY  REFERENCES Departments(D_ID),
+        [Fk_F_ID] INT NOT NULL FOREIGN KEY REFERENCES Facilities(F_ID),
+	PRIMARY KEY([FK_D_ID],[FK_F_ID])
+	
+)
